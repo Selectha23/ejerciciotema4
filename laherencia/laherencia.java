@@ -24,9 +24,11 @@ public class laherencia {
         usuario.edad= 18;
         usuario.nombre= "sergio";
         usuario.telefono = 66892141;
+        usuario.credito = 10000.85;
         System.out.println(usuario.edad);
         System.out.println(usuario.nombre);
         System.out.println(usuario.telefono);
+        System.out.println(usuario.credito);
 
         System.out.println("el obrero");
 
@@ -50,6 +52,7 @@ class Persona{
 }
 
 class Cliente extends Persona{
+    double credito;
 
 }
 class Trabajador extends Persona{
